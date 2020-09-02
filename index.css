@@ -48,3 +48,28 @@ table {
 }
 
 
+
+/* end of css reset */
+
+nav {
+    text-align: center;
+}
+
+.button {
+    border-radius: 10px;
+    display: inline-block;
+    width: 100px;
+    padding: 2% 0;
+}
+
+#plan {
+    background-color: #FF764E;
+}
+
+#learn {
+    background-color: #5ED3EB;
+}
+
+#involved {
+    background-color: #FFCD69;
+}
