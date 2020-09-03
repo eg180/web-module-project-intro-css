@@ -1,0 +1,195 @@
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}  */
+
+
+
+/* end of css reset */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+html{
+    font-size:62.5%;
+  }
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size:1.6rem;
+    line-height:1.5;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+}
+
+nav {
+    text-align: center;
+    margin: 5%;
+}
+
+nav a {
+    margin:0 5%;
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    border-radius: 10px;
+    display: inline-block;
+    width: 15%;
+    padding: 2% 0;
+    margin: 0 5%;
+    color: white;
+}
+
+#plan {
+    background-color: #FF764E;
+}
+
+#learn {
+    background-color: #5ED3EB;
+}
+
+#involved {
+    background-color: #FFCD69;
+}
+
+#plan2 {
+    background-color: #FF764E;
+}
+
+#learn2 {
+    background-color: #5ED3EB;
+}
+
+#involved2 {
+    background-color: #FFCD69;
+}
+
+h1 {
+    font-size: 6.9rem; 
+}
+
+.rounded-image {
+    width: 40%;
+    display: inline-block;
+}
+
+#top-img {
+    border-radius: 50%;
+    width: 60%;
+    align-content: right;
+}
+
+.icon-img {
+    border-radius: 50;
+    width: 12%;
+    align-content: center;
+}
+
+.photo-legend {
+    width: 25%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.yos-park-guide {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.yos-park-guide h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+#main-text {
+    background-color: #DDB9A3;
+    color: white;
+    margin: 3%;
+    padding: 3%;
+    font-size: 3.0rem;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    margin: 3%;
+}
+
+.footer-nav {
+    margin-top: 0%;
+    background-color: #F9E7DC;
+    padding: 2.1%;
+}
+
+.footer-section {
+    vertical-align: top;
+}
+
+#bottom-img {
+    height: 70%;
+    margin-bottom: 0%;
+    border: 0%;
+}
+
+address {
+    text-align: right;
+    margin: 5%;
+}
+
+.bold-me {
+    font-weight: 1800;
+}
