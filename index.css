@@ -189,3 +189,7 @@ address {
     text-align: right;
     margin: 5%;
 }
+
+.bold-me {
+    font-weight: 1800;
+}
